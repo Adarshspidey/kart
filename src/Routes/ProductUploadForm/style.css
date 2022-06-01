@@ -1,0 +1,73 @@
+h1{
+    padding: 15px 0px 0px 15px;
+}
+
+.productname{
+    font-size: larger;
+    margin-top: 15px;
+}
+#category{
+    padding-left: 5px;
+    background-color: #383A4A;
+    
+}
+
+.basic_details {
+    padding: 20px;
+    border: 1px solid #1EBAD6;
+    height: auto;
+    margin: 0 15px;
+    background-color: #383A4A;
+}
+
+.name_product_box {
+    
+    background-color: #383A4A;
+    height: 30px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid #1EBAD6;
+}
+
+.product_category {
+    margin: 20px 0;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.numberofstock {
+    margin: 10px 0;
+}
+
+.about_box {
+    height: 150px;
+    width: 90%;
+    background-color: #383A4A;
+    border: 1px solid #1EBAD6;
+    margin-top: 5px;
+}
+
+.uploadimage {
+    margin: 10px 0;
+    display: flex;
+}
+
+.price_box {
+    margin: 0 7px;
+    background-color: #383A4A;
+    border: 1px solid #1EBAD6;
+
+}
+
+.stock_box {
+    margin: 0 7px;
+    background-color: #383A4A;
+    border: 1px solid #1EBAD6;
+}
+
+.submitbutton {
+    background-color: #1EBAD6;
+}
+

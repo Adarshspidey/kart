@@ -1,0 +1,35 @@
+.recieve_message_block{
+
+    max-width: 70%;
+    margin-left: 5px;
+
+
+
+}
+
+.recieve_message_body{
+    color:#36393F;
+    font-size: 19px;
+    font-family: 'ROBOTO';
+    font-weight: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color:#F2F2F4;
+    border-radius: 0px 20px 20px 20px;
+    width: auto;
+    height: fit-content;
+}
+
+.message_recieve_time{
+    color:#36393F;
+    font-size: 14px;
+    font-family: 'ROBOTO';
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}

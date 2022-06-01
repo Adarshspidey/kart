@@ -1,0 +1,69 @@
+.verification_card {
+	background-color: #4D5275;
+	width: 70%;
+	height: 300px;
+	transform: translateY(50%);
+	padding: 30px;
+	margin: auto;
+}
+
+.enter_otp_text {
+	font-family: 'ROBOTO';
+	font-weight: bolder;
+	color: #F2F2F4;
+	margin: 10px 0;
+}
+
+.otp_text {
+	font-family: 'ROBOTO';
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.otp_box {
+	background-color: #4D5275;
+	color: #F2F2F4;
+	border: 1px solid #1EBAD6;
+	width: 100%;
+	height: 35px;
+	margin: 20px 0;
+}
+
+.validate_button {
+	background-color: #1EBAD6;
+	font-family: 'ROBOTO';
+	font-weight: bold;
+	border: none;
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+}
+
+.validate_button:hover{
+	background-color: blue;
+}
+
+.resend_otp {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media only screen and (min-width:750px) {
+	.verification_card {
+		padding: 60px;
+		height: 350px;
+	}
+}
+
+@media only screen and (min-width:950px) {
+	.verification_card {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width:1080px) {
+	.verification_card {
+		width: 40%;
+	}
+}

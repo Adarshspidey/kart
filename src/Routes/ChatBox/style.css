@@ -1,0 +1,189 @@
+.chatbox_container{
+    width: 100%; 
+    height: 100%;   
+}
+
+.chatbox_header{
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C2F33;
+    position: fixed;
+    top: 0%;
+}
+
+.sender_details_and_status{
+    width: auto;
+    height: 70%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sender_info{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.sender_name_chatbox{
+    color:#F2F2F4;
+    font-family: 'ROBOTO';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.go_back_button_to_home{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.back_button_here{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.senders_profile_image{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.sender_user_image{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+.sender_status_chatbox{
+    color:#3BA55D;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'ROBOTO';
+}
+
+
+
+.chatbox_body{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    /* background-color: #6C6C6C; */
+}
+
+.chatbox_typing_section{
+    width: 100%;
+    height: 80px;
+    background-color: #2C2F33;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+.pin_icon{
+    height: 35px;
+    width: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.write_a_message{
+    height: 65%;
+    width:calc( 100% - 110px );
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.voice_message_icon{
+    height: 35px;
+    width: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.message_writing_section{
+    height: 100%;
+    width: 100%;
+    color:#C0C0C8;
+    font-size: 18px;
+    background-color:#36393F;
+    border: solid 1px #2C2F33;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    
+
+}
+
+.selcted_product_chat_session{
+    width: calc( 100% - 12px);
+    height: fit-content;
+    display: inline-block;
+    background-color: #772183;
+    position: fixed;
+    top:85px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 0px 20px 20px 20px;
+
+}
+
+.selcted_product_chat_session_heading{
+    font-size: 14px;
+    font-family: 'ROBOTO';
+    font-style: normal;
+    color:#F2F2F4;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.selcted_product_chat_session_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.selcted_product_chat_session_close{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.selcted_product_chat_session_container{
+    color: #F2F2F4;
+    font-size: 16px;
+    font-family: 'ROBOTO';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 15px;
+}
+
+.chatbox_container_field{
+    display: flex;
+    flex-direction: column;
+}

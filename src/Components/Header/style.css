@@ -1,0 +1,123 @@
+.headersection{ 
+    width: 100%;
+    height: 60px;
+    background-color:#29292D;
+    position: fixed;  
+    top:0px;
+    z-index:1;
+}
+
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+    height: 100%;
+}
+
+.dropdown{
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 15px;
+    
+}
+
+
+.bar1, .bar2 , .bar3{
+    width: 35px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+  
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-7px, -6px); ;
+ 
+}
+
+
+
+  .search_bar_and_name{
+      display: flex;
+      justify-content: space-around;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: fit-content;
+      padding-right: 10px;
+     
+      
+
+}
+  .search{
+      width: fit-content;
+      height: fit-content;
+      cursor: pointer;
+
+}
+.header_profile{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 15px;
+  cursor: pointer;
+  
+}
+
+.searchsection{
+
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  position: absolute;
+  margin-bottom: auto;
+  align-items: center;
+  background-color: white;
+  display: none;
+  
+  
+}
+.back_button{
+  margin-left: 15px;
+
+
+}
+.Searh_form{
+  border: none;
+  width: 70%;
+  padding-left: 10px;
+  height: 50%;
+  
+  
+}
+input[type=search]{
+  width: 100%;
+  border: none;
+  height: 100%;
+  font-size: large;
+  color: black;
+  border-bottom: 1px black solid;
+  outline: none;
+  
+}
+
+
+
+
+
+
+/* @media screen and (min-width: 900px){
+  .dropdown{
+      display: none;
+  }
+
+} */
